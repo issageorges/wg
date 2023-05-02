@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(255, 204, 153);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+.homeimg{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;justify-content: center;
+}
+
+.hogal{
+    display: block;
+    max-width: 300px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    padding: 10px; 
+    box-sizing: border-box;
+    transition: 0.7s ease;
+    filter: grayscale(100%);
+    
+}
+.hogal:hover{
+    
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
